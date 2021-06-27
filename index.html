@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans">
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
+  <div class="card">
+    <div>
+      <img src="images/bg-pattern-card.svg" alt="" class="header">
+    </div>
+    <div class="info">
+      <img src="images/image-victor.jpg" alt="" class="pic">
+      <div class="info-name">
+        <p><strong>Victor Crest</strong>
+          26</p>
+        <p>London</p>
+      </div>
+      <hr style="color: lightgray;">
+      <div class="stats">
+        <div>
+          <strong>80K</strong>
+          <p class="stats-grid">Followers</p>
+        </div>
+        <div>
+          <strong>803K</strong>
+          <p class="stats-grid">Likes</p>
+        </div>
+        <div>
+          <strong>1.4K</strong>
+          <p class="stats-grid">Photos</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  803K
-  Likes
-
-  1.4K
-  Photos
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/AbdulazizBaHaj">Abdulaziz Ba Haj</a>.
   </div>
 </body>
+
 </html>
